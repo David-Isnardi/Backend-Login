@@ -1,7 +1,6 @@
 import { Router } from "express";
-import { cartModel } from "../dao/GeneralModels/GeneralModels.js";
-import { productModel } from "../dao/GeneralModels/GeneralModels.js";
-
+import cartModel from "../dao/GeneralModels/cart.model.js";
+import productModel from "../dao/GeneralModels/product.model.js";
 const router = Router();
 
 const filePathProducts = './src/products.json';

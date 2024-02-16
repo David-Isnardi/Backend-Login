@@ -5,7 +5,7 @@ import productsRouter from './routers/products.router.js'
 import cartsRouter from './routers/carts.router.js'
 import viewsRouter from './routers/views.router.js'
 import chatRouter from './routers/chat.router.js'
-import { messageModel } from './dao/GeneralModels/GeneralModels.js'
+import messageModel from './dao/GeneralModels/message.model.js'
 import ConectarBD from "./dao/mongo/database.js"
 import viewsUserRouter from "./routers/viewsUser.router.js"
 import sessionsRouter from "./routers/sessions.router.js"

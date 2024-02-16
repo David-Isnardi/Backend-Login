@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { cartModel } from "../GeneralModels/GeneralModels.js";
 
 const conectarBD = async () => {
   try {

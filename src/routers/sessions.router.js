@@ -1,6 +1,6 @@
 import { Router } from "express";
 import bcrypt from "bcryptjs"; // Librería para encriptar contraseñas
-import User from '../dao/GeneralModels/GeneralModels.js';
+import User from "../dao/GeneralModels/user.model.js";
 import { hasAdminCredentials } from "../public/js/authMiddleware.js";
 
 const router = Router();
